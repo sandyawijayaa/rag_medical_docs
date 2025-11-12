@@ -2,14 +2,6 @@
 
 This is an end-to-end **Retrieval-Augmented Generation (RAG)** application that builds a private "knowledge base" from a collection of PDF documents and allows you to "chat" with them. This demo uses medical case reports, but it can work with any set of text-based PDFs!
 
-### Key Features
-
-- **Chat History:** Remembers the context of your conversation.
-- **Source Citations:** Proves its answers by citing the exact PDF filenames it used.
-- **Live File Upload:** You can "teach" the AI new information by uploading new PDFs directly in the app.
-- **100% Private Embeddings:** Uses a local `all-MiniLM-L6-v2` model to create embeddings, so your documents *never* leave your machine for this step.
-- **Powerful AI:** Uses the Google Gemini API for state-of-the-art answer generation.
-
 ## Demo: How it Works
 
 This demo shows all three advanced features in action.
