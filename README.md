@@ -40,7 +40,7 @@ This demo shows all three advanced features in action.
 Clone this repository and navigate into it. Then, create and activate a virtual environment:
 
 ```
-git clone https://github.com/sandyawijayaa/rag_medical_ai.git
+git clone https://github.com/sandyawijayaa/rag_medical_docs.git
 cd rag_medical_project
 
 python3 -m venv venv
