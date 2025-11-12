@@ -17,13 +17,13 @@ This demo shows all three advanced features in action.
 **(1) RAG + Source Citations:** We can ask a complex question that requires information from all the *initial* documents. The app synthesizes a single answer and correctly cites all its sources.
 
 **(2) Chat History:** The app remembers the context of the conversation. We can ask a follow-up question ("which of those was in the 9-year-old child") that refers to our *very first question* ("complications"). The app understands "those" and provides the correct answer from the file we uploaded.
-![RAG + Sources Demo](basic.png)
+![RAG + Sources Demo](demo/basic.png)
 
 **(3) Live File Upload (Before & After):** We can teach the AI new information live.
 
 - **Before:** We ask about a topic *not* in the database ("MDMA and Parkinson's"). The app correctly states it doesn't have the information.
 - **After:** We upload a new file (`newdoc_parkinsons.pdf`) using the sidebar. We ask the *exact same question*, and the app now provides a perfect answer, citing the new file as its source.
-![RAG + Sources Demo](withnewfile.png)
+![RAG + Sources Demo](demo/withnewfile.png)
 
 ## Tech Stack
 
